@@ -5,7 +5,7 @@
 }
 
 p {
-  background-color: 
+  background-color:
 }
 
 img {
@@ -23,14 +23,12 @@ img {
   bottom: 500px;
 }
 
-nav navbar-nav
 
-
-/*.speaker-wrapper > img {
-  position: relative;
-}*/
-/*#logo {
-  position: absolute;
-  top: 200px;
-
-}*/
+.button {
+  background-color: #3367d6;
+  border: #3367d6;
+  color: #3367d6;
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px;
+}
