@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  background-color: red
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar {
+  height: 200px;
+  position: relative;
+}
+
+.nav navbar-nav img {
+  position: absolute;
+  bottom: 500px;
+}
+
+nav navbar-nav
+
+
+/*.speaker-wrapper > img {
+  position: relative;
+}*/
+/*#logo {
+  position: absolute;
+  top: 200px;
+
+}*/
