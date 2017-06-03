@@ -6,57 +6,63 @@
     <title>Think With Google</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <!-- <div class="header">
-        <h3>think with <img src="img/google.png" alt="google logo"width="20%" id=logo> </h3>
-      </div> -->
 
-        <div class="navbar">
+            <!-- - - - - -  NAVBAR -------------->
+            <div class="navbar navbar-default" role="navigation">
+          <div class="navbar-header">
 
-          <ul class="nav navbar-nav">
-            <li><a href="#">think with</a></li>
-            <li><img src="img/google.png" alt="google logo" width=20% id="logo"></li>
-            <li><a href="#">English - United States</a></li>
-            <li><a href="#">v</a></li>
-            <li><a href="#">Consumer Insights</a></li>
-            <li><a href="#">Marketing Resources</a></li>
-            <li><a href="#">Advertising Channels</a></li>
-          </ul>
-
-        </div>
-
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <span class="navbar-brand">think with Google</span>
+          </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li><a href="#">English - United States</a></li>
+              <li><a href="#">Consumer Insights</a></li>
+              <li><a href="#">Marketing Resources</a></li>
+              <li><a href="#">Advertising Channels</a></li>
+            </ul>
+          </div>
+</div>
 
 
       <div class="latest">
-        <h2>Latest Trends and stories</h2>
+        <h2>Latest trends and stories</h2>
       </div>
-      <div class="row">
+      <div class="wrapper">
+      <div id="top-row" class="row">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
-          <div class="speaker-wrapper">
-            <img src="img/speaker.png" alt="person speaking in arena">
-          </div>
+          <img id="speaker" src="img/speaker.png" alt="person speaking in arena">
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div id="img2" class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/youtube.jpeg" alt="fitness celebrity">
           <h3><center>Inside Google Marketing: Testing a Media Plan That Leads With YouTube Bumper Ads</center></h3>
           <h4><center>Interview- May 2017</center></h4>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div id="img3" class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/watch.jpeg" alt="apple watch" width="100%">
           <h3><center>The Consumer Behaviors Shaping the Next Generation of Mobile Experiences</center></h3>
           <h4><center>Perspective- May 2017</center></h4>
         </div>
       </div>
+    </div>
+
 
       <div class="row">
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div id="img4"class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/video.jpeg" alt="illustration of people watching tv">
           <h3><center>The Rise of Online Video on the TV Screen</center></h3>
           <h4><center>Infographic- May 2017</center></h4>
         </div>
-        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
+        <div id="img5"class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/girls.jpeg" alt="two children walking together">
           <h3><center>Travel Planning and Purchasing Has Evolved on Mobile</center></h3>
           <h4><center>Article- May 2017</center></h4>
@@ -100,29 +106,39 @@
         </header>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/shopping.png" alt="">
-          <h3>Shopping Insights</h3>
+          <h4>Shopping Insights</h4>
           <p>Explore trends and popularity of products across the U.S.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/consumer.png" alt="">
-          <h3>Shopping Insights</h3>
+          <h4>Consumer Barometer</h4>
           <p>Explore trends and popularity of products across the U.S.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/trends.png" alt="">
-          <h3>Shopping Insights</h3>
+          <h4>Google Trends</h4>
           <p>Explore trends and popularity of products across the U.S.</p>
         </div>
         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3">
           <img src="img/benchmarks.png" alt="">
-          <h3>Shopping Insights</h3>
+          <h4>Display Benchmarks</h4>
           <p>Explore trends and popularity of products across the U.S.</p>
         </div>
         <div class="button">
           <button type="button" id="button">SEE ALL TOOLS</button>
         </div>
       </div>
-
+      <div class="row" id="footer">
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h1>Get the latest data, insights, and inspiration from Google.</h1>
+        </div>
+        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+          <h3>Email Address ___________________________</h3>
+          <h3>Company ___________________________</h3>
+          <p>Sign up to receive your selected communications from Google Inc. and its affiliates. Your information will be used in accordance with Google's privacy policy. You may opt out at any time.</p>
+          <button type="button" id="subscribe-button">SUBSCRIBE</button>
+        </div>
+      </div>
     </div><!--container-end -->
 
 
